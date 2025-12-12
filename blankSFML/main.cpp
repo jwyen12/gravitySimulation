@@ -64,7 +64,6 @@ public:
     void accelerate(sf::Vector2f acceleration) {
         velocity.x += acceleration.x;
         velocity.y += acceleration.y;
-       //std::cout << velocity.x<< "\n";
     }
     void update_pos() {
         position.x += velocity.x;
@@ -143,6 +142,7 @@ std::vector<particle> particles{
     particle(760.0f, 160.0f, .54f, 0.f,5.f, 4, 166, 225, 121),
     particle(800.0f, 460.0f, -.7f, 0.f,5.f, 4, 51, 0, 0),
     particle(760.0f, 130.0f, .5f, 0.f,6.f, 4, 153, 76, 0),
+
 };
 
 
